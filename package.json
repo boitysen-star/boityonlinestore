@@ -1,0 +1,9 @@
+{
+  "name": "urban-threads-store",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check public/app.js && node --check public/firebase-config.js && node --check scripts/serve.mjs"
+  }
+}
